@@ -1,0 +1,148 @@
+body{
+  font-size: 11px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: left;
+  font-family: 'Overpass', sans-serif;
+}
+
+h4{
+  font-size: 30px;
+  margin: 30px 0 25px 0;
+  font-weight: 700;
+}
+
+.first-para{
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  font-weight: 400;
+}
+
+.main-body{
+  background-color: #1e242c;
+  height: 400px;
+  width: 450px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.star-pic{
+  background-color: grey;
+  background-color: hsl(213, 19%, 18%);
+  height: 1.8rem;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+ol{
+  font-size: 20px;
+  list-style: none;
+  height: 45px;
+  padding: 0;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+li{
+  margin-right: 5px;
+  width: 45px;
+}
+
+.backgroundColor{
+  background-color: hsl(25, 97%, 53%);
+}
+
+.circle-button{
+  height: 100%;
+  width: 100%;
+  background-color: hsl(213, 19%, 18%);
+  border-style: none;
+  border-radius: 30px;
+}
+
+.circle-button:hover{
+background-color: hsl(216, 12%, 54%);
+transition: 0.5s;
+cursor: pointer;
+}
+
+.long-button{
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 30px;
+  margin-top: 5px;
+  background-color: orange;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-style: none;
+}
+
+.long-button:hover{
+  background-color: white;
+  color: orange;
+  color: hsl(25, 97%, 53%);
+}
+
+.hidden-div{
+  display: grid;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.h3-after-click{
+  font-size: 1.7rem;
+  margin: 18px 0 18px 0;
+}
+
+.para-after-click{
+  font-size: 1rem;
+}
+
+.para-after-click1{
+  color: orange;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin: 35px 0 20 0;
+}
+
+.para-after-click2{
+  text-align: center;
+  color: lightgrey;
+  color: hsl(217, 12%, 63%);
+}
+
+.pic-after-click{
+  margin-bottom: 13px;
+}
+
+.soon-to-hide{
+  height: 100%;
+  width: 100%;
+}
+/*for js*/
+.portfolio-buttons-active{
+  background-color: hsl(25, 97%, 53%);
+}
+
+
+.hidden{
+  display: none;
+}
